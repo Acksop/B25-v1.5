@@ -1,0 +1,616 @@
+div.limiteur{
+background-color: black;
+position: absolute;
+top: 400px;
+right: 0px;
+width: 100%;
+height: 35px;
+z-index: 2;
+}
+div.menu{
+background-color: #663333;
+position: absolute;
+top: 0px;
+right: 0px;
+width: 100%;
+height: 400px;
+z-index: 3;
+}
+div.logoMenu{
+position: absolute;
+left: 10px;
+}
+div.boutonsMenu{
+position: absolute;
+left: 250px;
+top: 50px;
+}
+div.sousmenu{
+position: absolute;
+top: 330px;
+left: 500px;
+z-index: 3;
+}
+div.corps{
+position: absolute;
+padding: 0%;
+margin: 0%;
+width: 100%;
+top: 450px;
+left: 0px;
+z-index: 3;
+}
+div.contenu{
+padding: 5%;
+width: 90%;
+}
+div.piedDePage{
+background-color: #cccccc;
+background-image: url(http://besancon25.fr/images/FinDePage-2.png);
+background-repeat: repeat-x;
+height: 500px;
+}
+div.article{
+position:relative;
+}
+div.gueuloir{
+position:relative;
+display: none;
+}
+
+div.imagebd{
+background-color: none;
+position: absolute;
+top: 400px;
+right: 270px;
+z-index: 2;
+}
+div.cadreArrondi{
+border-width: 1px;
+}
+div.formulaire{
+display: block;
+}
+div.telechargementEnCours{
+display: none;
+}
+#menu {
+width: 250px;
+list-style: none;
+}
+#menu li {
+-moz-border-radius: 5 5 5 5;
+background-color: #FFFFFF;
+text-align: left;
+margin: 1em 0em;
+border-color: black;
+border-style: dotted;
+border-width: 1px;
+padding-left: 2em;
+padding-top: 1em;
+float: left;
+width:175px;
+
+}
+#menu li:first-letter{
+font-size: 200%;
+float: left;
+}
+#menu li a{
+background-color: #CCCCCC;
+color: black;
+text-decoration: none;
+}
+#menu li a:hover{
+color: gray;
+}
+#menu li a:focus{
+color: black;
+}
+
+#sousmenu {
+width: 750px;
+list-style: none;
+float: right;
+}
+#sousmenu li{
+width:500px;
+-moz-border-radius: 5 5 0 0;
+background-color: #FFFFFF;
+text-align: left;
+margin 1em 2em;
+border-color:black;
+border-style: solid;
+border-width: 1px;
+padding-left: 2em;
+padding-top: 1em;
+}
+#sousmenu li:first-letter{
+font-size: 150%;
+float: left;
+}
+#sousmenu li:a{
+background-color: #BBBBBB;
+color:black;
+}
+#sousmenu li a:hover{
+color:gray;
+}
+#sousmenu li a:focus{
+color:black;
+}
+body{
+background-color: #848484;
+}
+
+.tweet{
+	border: 1px solid black;
+	
+}
+.btn_modif{
+	border: 1px solid black;
+	width: 200px;
+	cursor: pointer;
+}
+.btn_modif_preferences{
+	border: 1px solid black;
+	width: 500px;
+	cursor: pointer;
+}
+.btn_dossiers{
+	border: 1px solid black;
+	width: 300px;
+	height: 75px;
+	cursor: pointer;
+	
+}
+.tweetReset{
+	border: 0px;
+	color: red;
+	font-weight: bold;
+}
+.tweetReset:hover{
+	text-decoration: underline;
+}
+.btn{
+	cursor: pointer;
+}
+form.membres label{
+	float: inline;
+	font-size: 10px;
+	width: 200px;
+}
+
+
+div.conteneurGrandArticle{
+
+	display:table;
+	column-width: 960;	
+	width: 950px;
+	margin: 15 auto;
+	position: relative;
+	padding: 10px;
+	border: 1px dotted #FFDDDD;
+	text-align: left;
+}
+div.conteneurLigneArticle{
+	display: table-row;
+	width: 930px;
+}
+div.conteneurColonneArticle{
+	display: table-column;
+	width: 930px;
+}
+
+div.conteneurArticle{
+	width: 300px;	
+	display: table-cell;
+	margin: auto auto;
+	padding: 10px;
+	border: 1px dotted #FFDDDD;
+	text-align: left;
+}
+div.conteneurArticle h2.legende{
+	margin: -23px 0px 0px 60px;
+	padding: 0px 10px 0px 10px;
+	border-style: none;
+	color: white;
+	background-color: grey;
+	height: 25px;
+	width: 220px;
+	font-family: Verdana,Arial,serif;
+	text-align: left;
+}
+div.conteneurArticleInterieur{
+	width: 280px;
+	margin: 15 auto;
+	background-color: grey;
+	padding: 10px;
+	border: 1px solid #FFDDDD;
+	text-align: left;
+}
+div.conteneurAlbumInterieur{
+	width: 250px;
+	margin: 15 auto;
+	background-color: silver;
+	padding: 10px;
+	border: 1px solid #grey;
+	text-align: left;
+}
+div.conteneurGrandInterieur h3.legende{
+	margin: -23px 0px 0px 70px;
+	padding: 0px 10px 0px 10px;
+	border-style: none;
+	color: white;
+	background-color: grey;
+	height: 25px;
+	width: 200px;
+	font-family: Verdana,Arial,serif;
+	text-align: left;
+}
+
+div.conteneurGrand{
+	clear: left;
+	width: 950px;
+	margin: 15 auto;
+	position: relative;
+	padding: 10px;
+	border: 1px dotted #FFDDDD;
+	text-align: left;
+}
+div.conteneurGrand h2.legende{
+	margin: -23px 0px 0px 60px;
+	padding: 0px 10px 0px 10px;
+	border-style: none;
+	color: white;
+	background-color: gray;
+	height: 25px;
+	width: 500px;
+	font-family: Verdana,Arial,serif;
+	text-align: left;
+}
+div.conteneurGrandInterieur{
+	width: 880px;
+	margin: 15 auto;
+	background-color: gray;
+	padding: 10px;
+	border: 1px solid #FFDDDD;
+	text-align: left;
+}
+div.conteneurGrandInterieur h3.legende{
+	margin: -23px 0px 0px 70px;
+	padding: 0px 10px 0px 10px;
+	border-style: none;
+	color: white;
+	background-color: gray;
+	height: 25px;
+	width: 300px;
+	font-family: Verdana,Arial,serif;
+	text-align: left;
+}
+div.conteneur{
+	width: 550px;
+	margin: 10 auto;
+	padding: 10px;
+	border: 1px dotted #FFDDDD;
+	text-align: left;
+}
+div.conteneur h2.legende{
+	margin: -23px 0px 0px 60px;
+	padding: 0px 10px 0px 10px;
+	border-style: none;
+	color: white;
+	background-color: gray;
+	height: 25px;
+	width: 300px;
+	font-family: Verdana,Arial,serif;
+	text-align: left;
+}
+div.conteneurInterieur{
+	width: 530px;
+	margin: 15 auto;
+	background-color: gray;
+	padding: 10px;
+	border: 1px solid #FFDDDD;
+	text-align: left;
+}
+div.conteneurInterieur h3.legende{
+	margin: -23px 0px 0px 70px;
+	padding: 0px 10px 0px 10px;
+	border-style: none;
+	color: white;
+	background-color: gray;
+	height: 25px;
+	width: 250px;
+	font-family: Verdana,Arial,serif;
+	text-align: left;
+}
+
+div.conteneurPetit{
+	width: 400px;
+	margin: 10 auto;
+	padding: 10px;
+	border: 1px dotted #FFDDDD;
+	text-align: left;
+}
+div.conteneurPetit h2.legende{
+	margin: -23px 0px 0px 60px;
+	padding: 0px 10px 0px 10px;
+	border-style: none;
+	color: white;
+	background-color: gray;
+	height: 25px;
+	width: 220px;
+	font-family: Verdana,Arial,serif;
+	text-align: left;
+}
+div.conteneurPetitInterieur{
+	width: 380px;
+	margin: 15 auto;
+	background-color: gray;
+	padding: 10px;
+	border: 1px solid #FFDDDD;
+	text-align: left;
+}
+div.conteneurPetitInterieur h3.legende{
+	margin: -23px 0px 0px 70px;
+	padding: 0px 10px 0px 10px;
+	border-style: none;
+	color: white;
+	background-color: gray;
+	height: 25px;
+	width: 250px;
+	font-family: Verdana,Arial,serif;
+	text-align: left;
+}
+
+
+#slide {
+ width: 700px;
+ margin: 10px auto;
+ position: relative;
+ height: 1000px;
+ overflow: hidden;
+ }
+
+.utilisateurs{
+	border: 1px dotted #FFDDDD;
+	background-color: gray;
+}
+.utilisateursInverse{
+	border: 1px dotted #FFDDDD;
+	background-color: silver;
+}
+.bloc_murUtilisateur{
+	position:relative;
+	left:25px;
+}
+.murUtilisateurs{
+	border: 1px dotted #FFDDDD;
+	background-color: gray;
+	display:block;
+	float:center;
+	width:100%;
+	margin: 0 5 5 0;
+	padding: 0 2 2 0;
+}
+
+h1.utilisateurs{
+	border: 1px dotted #FFDDDD;
+	background-color: gray;
+}
+h2.utilisateurs{
+	border: 1px dotted #FFDDDD;
+	background-color: gray;
+}
+h3.utilisateurs{
+	border: 1px dotted #FFDDDD;
+	background-color: gray;
+}
+h1.utilisateursInverse{
+	border: 1px dotted #FFDDDD;
+	background-color: silver;
+}
+h2.utilisateursInverse{
+	border: 1px dotted #FFDDDD;
+	background-color: silver;
+}
+h3.utilisateursInverse{
+	border: 1px dotted #FFDDDD;
+	background-color: silver;
+}
+a.info{
+    position: relative; 
+    z-index: 24;
+    color: black;
+    text-decoration: none
+}
+
+a.info:hover{
+	z-index: 25;
+}
+a.info span{
+	display: none;
+}
+a.info:hover span{
+	display: block;
+	position: absolute;
+	top: -15em; left: 10em; width:25em; height: 20em;
+	border: 1px solid #663333;
+	background-color: #FFFFFF;
+	color: #000000;
+	text-align: justify;
+	font-weight: none;
+	padding: 1px;
+}
+table.utilisateurs td{
+	border: 1px dotted #FFDDDD;
+	background-color: gray;
+	padding: 0px 10px 0px 10px;
+	margin: 0px 10px 0px 10px;
+	text-align: center;
+}
+td.titreTableau{
+	border: 1px solid #FFDDDD;
+	background-color: gray;
+	padding: 5px 10px 5px 10px;
+	text-align: right;
+	color: white;
+	width: 250px;
+}
+
+td.utilisateurs{
+	border: 1px dotted #FFDDDD;
+	background-color: gray;
+	padding: 0px 10px 0px 10px;
+	margin: 0px 10px 0px 10px;
+	text-align: center;
+}
+td.utilisateursInverse{
+	border: 1px dotted #FFDDDD;
+	background-color: silver;
+	padding: 0px 10px 0px 10px;
+	margin: 0px 10px 0px 10px;
+	text-align: center;
+}
+td.ecriture{
+	border: 1px dotted #FFDDDD;
+	background-color: gray;
+	padding: 0px 10px 0px 10px;
+	margin: 0px 10px 0px 10px;
+	text-align: left;
+}
+td.ecritureInverse{
+	border: 1px dotted #FFDDDD;
+	background-color: silver;
+	padding: 0px 10px 0px 10px;
+	margin: 0px 10px 0px 10px;
+	text-align: left;
+}
+td.gris{
+	background-color: #CCCCCC;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 5px;
+	height: 5px;
+}
+td.fondgris{
+	background-color: #CCCCCC;
+}
+td.articles{
+	background-color: #666666;
+}
+td.article{
+	border: 1px solid #DDDDDD;
+	background-color: #CCCCCC;
+	height: 1000px;
+}
+p.utilisateurs{
+	border: 1px dotted #FFDDDD;
+	background-color: gray;
+	padding: 0px 10px 0px 10px;
+	margin: 0px 10px 0px 10px;
+	text-align: center;
+	float: left;
+}
+p.date{
+	font-style: underline;
+}
+p.post{
+	font-variant: small-caps;
+}
+p.Tchat{
+	float: left;
+	text-align: left;
+}
+p.TchatSuppression{
+	width: 500px;
+}
+p.titre{
+	font-variant: small-caps;
+	width: 150px;
+}
+p.titreDossier{
+	width: 500px;
+	text-align: center;
+	font-variant: small-caps;
+}
+p.corpsDossier{
+	width: 730px;
+}
+p.sous-titre{
+	font-style: italic;
+}
+p.gauche { text-align: left; }
+p.centre { text-align: center; }
+p.droite { text-align: right; }
+p.justifier { text-align: justify; }
+
+span.gras { font-weight: bold; }
+span.italique {font-style: italic; }
+span.souligne {text-decoration: underline; }
+span.fluo{ background:#ffff00; }
+span.titre{	font-variant: small-caps;}
+img { border: #000000 0px solid; }
+
+#article li {
+	text-align: left;
+	list-style: square;
+}
+ul{
+  	list-style-position: inside;
+  	padding:0 0 0 0;
+	margin: 3px 0px 3px 10px;
+}
+ul.preferences{
+	border: 1px solid #FFDDDD;
+	background-color: gray;
+	width: 860px;
+	text-align: left;
+	margin: 10px;
+	padding: 10px;
+}
+ul.normal{ list-style-type: disc; }
+ul.numeros{ list-style-type: decimal; }
+ul.lettres{ list-style-type: lower-alpha; }
+
+body{
+font-family:  Verdana, Helvetica, Monospace, Garamond, Symbol, Times New Roman, Courrier New, Impact, Webding, Garuda, Arial, Comic Sans MS;
+}
+
+li{
+font-size:12px;
+}
+#article li {
+font-size: 12px;
+}
+p{
+font-size:12px;
+}
+p.date{
+font-size: 12px;
+}
+p.post{
+font-size: 10px;
+}
+p.Tchat{
+font-size: 12px;
+}
+p.utilisateurs{
+font-size: 12px;
+}
+p.titre{
+font-size: 17px;
+}
+p.article{
+font-size: 12px;
+}
+p.corpsDossier{
+font-size: 14px;
+}
+p.titreDossier{
+font-size: 19px;
+}
+p.sous-titre{
+font-size: 15px;
+}

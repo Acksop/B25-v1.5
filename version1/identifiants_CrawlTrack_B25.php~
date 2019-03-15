@@ -1,0 +1,7 @@
+<?php
+$crawltuser='yourMysqlUser';
+$crawltpassword='yourMysqlPassword';
+$crawltdb='Crawltrack_B25';
+$crawlthost='localhost';
+$secret_key='fmdakfjfydattsmviyhlqggpwmplxqmdvhdgffdeivxcncqncx';
+

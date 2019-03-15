@@ -1,0 +1,10 @@
+<?php
+
+define('DEBUG', TRUE);
+define('BD_ADRESSE', 'localhost');
+define('BD_USER', 'YourMysqlUser');
+define('BD_PASS', 'YourMysqlPassword');
+define('BD_NOM', 'B25_10-05-2014');
+
+
+?>

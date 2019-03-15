@@ -1,0 +1,3 @@
+<?php
+//$adresseBDDGoogleMap = "mysql://dbo446012612:3MR&G00GL3@db446012612.db.1and1.com/db446012612";
+$adresseBDDGoogleMap = "mysql://user:pass@localhost/GoogleAdress";
