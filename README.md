@@ -35,4 +35,34 @@ Je mettrais peut être un jour la version 3.0c en ligne pour les demandeurs mais
 
 
 
+![Souris de Noël](http://besancon25.fr/images/NouvelAn/2015/sourisDeNoel.png)
+
+## Remerciements 
+
+
+Remerciement Javascript:
+
+>  - SortTable http://www.kryogenix.org/code/browser/sorttable/
+>  - MooTools 1.2.4 http://mootools.net
+>  - MootoolsCarousel , MootoolsPeriodicalExecuter  https://github.com/tbela99
+>  - LiveJs http://livejs.com
+>  - JsChart http://jscharts.com
+>  - Ajax-xHR https://www.xul.fr/Objet-XMLHttpRequest.php
+>  - Recursion Toy http://soulwire.co.uk/experiments/recursion-toy/
+
+Remerciement PHP
+
+>  - Crawltrack 3-3-2 http://www.crawltrack.fr/ 
+>  - EasyGoogleMap http://bradwedell.com/php-google-maps-api/ 
+>  - SimpleHtmlDom https://simplehtmldom.sourceforge.io/
+>  - TinyMCE https://www.tiny.cloud/
+>  - W-code  https://codes-sources.commentcamarche.net/source/30779-wcode-mise-en-forme-a-la-bbcode
+
+Remerciement CSS
+
+> - Gabarit Elephorm CSS [Florens Verschelde](https://fvsch.com/)
+> > http://blog.elephorm.com/apprendre-xhtml-css/
+> > https://fvsch.com/gabarits-html/html/
+
+
 Mes sincères salutations a ceux qui voudront bien s'y intéresser....
