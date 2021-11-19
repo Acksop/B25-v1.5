@@ -1,6 +1,6 @@
 # B25-V1.5 build with MVC---Procedural
 
-Cette coquille-template complète est le fruit d'un travail qui n'est plus disponible sur les toiles du réseau, il est aussi le fruit d'un travail d'archarné pendant près de 5ans avec toutes les casquettes possibles et imaginables qu'il sont possible d'imaginer lorsque l'on crééé un site informatique. Réellement personne ne m'a aidé sur le long terme, programmatiquement parlant....
+Cette coquille-template complète est le fruit d'un travail qui n'est plus disponible sur les toiles du réseau des réseaux, il est aussi le fruit d'un travail d'archarné pendant près de 5ans avec toutes les casquettes possibles et imaginables qu'ils sont possible d'imaginer lorsque l'on crééé un site informatique depuis une simple page vide. Réellement personne ne m'a aidé sur le long terme, programmatiquement parlant....
 
 Il est installable sur un poste en local afin de comprendre comment le B25.fr a été codé mais n'est plus maintenu, veuiller choisir la vN si vous voulez participer au projet...
 
@@ -16,9 +16,9 @@ Il vous faudra aussi réferencer les FQDN de la radieurae dans le fichier `/vers
 
 Enfin il vous faudra dans ce même fichier (`/version1/localisation_Domaines_externes_B25.php` ) référencer le FQDN local du virtualhost du site mère que vous avez précédemment créé. Je vous conseille vivement des FQDN du type `v1.besancon25.local` et `radieaurae.besancon25.local` . Les `.dev` étant dépréciés depuis 2016, voir même avant...
 
-Ce projet est disponible gratuitement pour celui qui souhaitera tenter l'expérience de programmation de groupe autour du B25.
+Cette version du projet est disponible gratuitement pour celui qui souhaitera tenter l'expérience de programmation de groupe autour du B25.
 
-Afin de travailler sur la vN il vous suffit de copier le dossier `version1/public` à la place du précédent. C'est un peu hasardeux mais c'est comme çà. Pour les plus courageux vous pouvez cloner le dépot du vN à coté de  `/version1` et ajouter les fichiers identifiants manquants, qui sont quasiment les même. Et s'il y a erreur, je suis disposé à la corriger.
+Afin de travailler sur la vN : il vous suffit de copier le dossier `version1/public` à la place du précédent. C'est un peu hasardeux mais c'est comme çà. Pour les plus courageux vous pouvez cloner le dépot du vN à coté de  `/version1` et ajouter les fichiers identifiants manquants, qui sont quasiment les même. Et s'il y a erreur, je suis disposé à la corriger.
 
 
 > ## **La plate-forme du B25**
@@ -31,11 +31,7 @@ Afin de travailler sur la vN il vous suffit de copier le dossier `version1/publi
 
 Envoyer moi un courriel.
 
-Je mettrais peut être un jour la version 3.0c en ligne pour les demandeurs mais ce n'est pas encore d'actualité. Y a beacoup trop de code dangereux, d'ailleurs cette version ne peut absolument pas être gratuite du fait qu'il y a monétisation in-situ.
-
-
-
-![Souris de Noël](http://besancon25.fr/images/NouvelAn/2015/sourisDeNoel.png)
+![Souris de Noël](https://besançon25.fr/images/NouvelAn/2015/sourisDeNoel.png)
 
 
 ## Remerciements 
