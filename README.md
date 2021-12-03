@@ -62,7 +62,7 @@ Remerciement CSS
 Remerciement Personnel:
 
 > - Nicolas GAINON pour son idée originale
-> - Florient VENTURI pour son petit plus
+> - Florian VENTURI pour son petit plus
 
 
 Mes sincères salutations à ceux qui voudront bien s'y intéresser....
