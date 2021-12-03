@@ -26,7 +26,7 @@ Afin de travailler sur la vN (https://github.com/Acksop/B25-vN) : il vous suffit
 > est un **annuaire unique** pour les artistes, artisans, associations,
 > groupe musicaux **de Besançon et de ses
 > alentours**.   Elle s'articule autour d'une présentation simple et
-> personnalisable d'une page personnelle différentes pour chaque
+> personnalisable d'une page personnelle différente pour chaque
 > catégorie d'acteur socio-économique Bisontins.
 
 ![Souris de Noël](https://besançon25.fr/images/NouvelAn/2015/sourisDeNoel.png)
