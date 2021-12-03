@@ -66,3 +66,4 @@ Remerciement Personnel:
 
 
 Mes sincères salutations à ceux qui voudront bien s'y intéresser....
+Vous pouvez aussi consulter la documentation fonctionnelle de cette version du B25, sur la page dédié à celle-ci [https://wikini.besançon25.fr/wakka.php?wiki=SiteMere]
