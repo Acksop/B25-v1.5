@@ -172,7 +172,7 @@ if($page == 'preferences' || $interface == 6 || $interface == 9 || $interface ==
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-43709598-1', 'besancon25.fr');
+  ga('create', '', 'besancon25.fr');
   ga('send', 'pageview');
 
 </script>
